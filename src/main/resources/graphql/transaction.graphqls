@@ -1,0 +1,14 @@
+type Transaction {
+	id: ID!,
+	accountNumber: String!,
+	amount: Float!,
+	description: String!,
+	date: String!,
+	customerId: String!
+}
+
+type Query {
+	transactionsByCustomerId(customerId: Int, page: Int, size: Int):[Transaction]
+	transactionsByAccountNumbers(accountNumbers: [String], page: Int, size: Int):[Transaction]
+	transactionsByDescription(description: String, page: Int, size: Int):[Transaction]
+}
