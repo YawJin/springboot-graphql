@@ -25,7 +25,7 @@
 		<graphiql-spring-boot-starter.version>5.0.2</graphiql-spring-boot-starter.version>
 		<graphql-java-tools.version>5.2.4</graphql-java-tools.version>
 		<lombok.version>1.18.8</lombok.version>
-		<mysql-connector-java.version>8.0.18</mysql-connector-java.version>
+		<mysql-connector-java.version>8.0.28</mysql-connector-java.version>
 	</properties>
 
 	<dependencies>
